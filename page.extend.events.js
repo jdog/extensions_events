@@ -1,6 +1,6 @@
 PAGE.extend(function(inst, proto, log) {
 
-	PAGE.spawn("ext.events", function(dog, eventMap) {
+	PAGE.add("ext.events", function(dog, eventMap) {
 
 		eventMap = eventMap || { }
 
